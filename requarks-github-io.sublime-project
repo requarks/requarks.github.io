@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"requarks-github-io.sublime-project"
+			],
+			"path": "."
+		}
+	]
+}
