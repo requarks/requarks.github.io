@@ -4,6 +4,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+if (window.location.protocol !== 'https:') {
+	window.location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+}
+
 (function($) {
 
 	skel.breakpoints({
